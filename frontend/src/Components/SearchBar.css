@@ -1,0 +1,45 @@
+.searchbg{
+    /* unique gradient */
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 600px;
+    padding: 7px 20px;
+    position: relative; /* for button absolute positioning */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2), -5px -5px 15px rgba(255,255,255,0.7); /* modern soft shadow */
+}
+
+/* Input Field */
+.searchbg input{
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.4)
+}
+
+/* Button overlapping input */
+.searchbg button{
+    position: absolute;
+    top: 50%; 
+    right: 10px; /* distance from right edge */
+    transform: translateY(-50%);
+    background: linear-gradient(135deg, #006eff, #0909ee); /* unique gradient button */
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for button */
+.searchbg button:hover{
+    
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    transform: translateY(-50%) scale(1.05);
+}
