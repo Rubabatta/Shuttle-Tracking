@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import Header from "./Components/Header";
-import SideBar from "./Components/SideBar";
-
+import Header from "./Components/Header/Header";
+import SideBar from "./Components/SideBar/SideBar";
 function App() {
   const [shuttles, setShuttles] = useState([]);
   const [name, setName] = useState("");

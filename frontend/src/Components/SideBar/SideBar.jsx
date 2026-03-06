@@ -1,7 +1,7 @@
 import React from 'react'
 import './SideBar.css'
 import { FaBus, FaUserCircle, FaRoute, FaBell, FaQuestionCircle, FaClock, FaHome } from "react-icons/fa";
-import SearchBar from './SearchBar';
+import SearchBar from '../SearchBar/SearchBar';
 
 const SideBar = () => {
   return (

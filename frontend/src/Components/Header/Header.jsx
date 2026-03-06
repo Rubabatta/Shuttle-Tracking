@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBell, FaUserCircle, FaSun } from "react-icons/fa";
+import "./Header.css";
 
 function Header() {
   return (
